@@ -1,0 +1,104 @@
+/* **********left nav start*********** */
+.left-nav {
+    width: 300px;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    transition: left 0.5s;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color .5s;
+}
+ul li a:hover{
+    color: #DC3545;
+    text-decoration: none;
+}
+
+
+.close-div,
+.open-button {
+    cursor: pointer;
+}
+.close-div {
+    color: white;
+}
+.close-div:hover {
+    color: #DC3545 !important;
+    transition: color .5s;
+}
+
+/* **********left nav end*********** */
+
+/* **********slider start*********** */
+
+#slider {
+    min-height: 350px;
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.display-block {
+    display: block;
+}
+.display-none {
+    display: none;
+}
+
+/* **********slider end*********** */
+
+/* **********counter start************ */
+#counter {
+    min-height: 300px;
+    background-color: #F8D7DA;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    width: 200px;
+    height: 190px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+/* **********counter end************ */
+
+/* contact */
+
+.icons {
+    width: 250px;
+}
+.icon {
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover {
+    background-color: #D62E33;
+    color: white;
+}
+
+.chars {
+    font-size: 20px;
+    color: #D62E33;
+}
+
+.sendM {
+    display: block;
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.sendM:hover {
+    background-color: #D62E33;
+    color: white;
+}
